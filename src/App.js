@@ -2,19 +2,6 @@ import React from "react";
 import Info from "./components/info";
 import Form from "./components/form";
 import Weather from "./components/weather";
-import WeekContainer from './WeekContainer';
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <WeekContainer />
-      </div>
-    );
-  }
-}
-
-export default App;
 
 const API_KEY = "42c295cf355c858661bff09416ff774a";
 
